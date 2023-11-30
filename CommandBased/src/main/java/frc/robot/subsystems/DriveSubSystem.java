@@ -6,19 +6,11 @@ package frc.robot.subsystems;
 
 import edu.wpi.first.wpilibj2.command.CommandBase;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
-import com.ctre.phoenix.motorcontrol.can.WPI_VictorSPX;
 
-public class DriveTrainSubsystem extends SubsystemBase {
+public class DriveSubSystem extends SubsystemBase {
 
-  private final WPI_VictorSPX leftMotor1 = new WPI_VictorSPX(1);
-  private final WPI_VictorSPX leftMotor2 = new WPI_VictorSPX(2);
-  private final WPI_VictorSPX rightMotor1 = new WPI_VictorSPX(3);
-  private final WPI_VictorSPX rightMotor2 = new WPI_VictorSPX(4);
+  public DriveSubSystem() {}
 
-
-  public DriveTrainSubsystem() {
-
-  }
 
   public CommandBase exampleMethodCommand() {
 
@@ -27,6 +19,7 @@ public class DriveTrainSubsystem extends SubsystemBase {
 
         });
   }
+
 
   public boolean exampleCondition() {
 
