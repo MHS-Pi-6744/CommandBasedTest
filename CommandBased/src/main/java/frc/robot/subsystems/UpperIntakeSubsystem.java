@@ -22,10 +22,6 @@ public class UpperIntakeSubsystem extends SubsystemBase {
 
 
 
-
-    }
-    
-
    @Override
   public void periodic() {
     
@@ -34,6 +30,6 @@ public class UpperIntakeSubsystem extends SubsystemBase {
   public void setMotors(double intakeSpeed){
     upperIntakeMotor.set(intakeSpeed);
 
-
   
   }
+}
