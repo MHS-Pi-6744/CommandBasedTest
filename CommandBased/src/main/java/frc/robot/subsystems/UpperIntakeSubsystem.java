@@ -9,9 +9,9 @@ import frc.robot.commands.upperIntakeCmd;
 
 
 
-public class UpperIntakeSubsystem extends SubsystemBase {
+public class upperIntakeSubsystem extends SubsystemBase {
 
-  public UpperIntakeSubsystem(){
+  public upperIntakeSubsystem(){
 
   }
 

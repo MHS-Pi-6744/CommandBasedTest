@@ -3,14 +3,14 @@ package frc.robot.subsystems;
 import edu.wpi.first.wpilibj2.command.CommandBase;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import com.ctre.phoenix.motorcontrol.can.WPI_VictorSPX;
-import edu.wpi.first.wpilibj.motorcontrol.MotorControllerGroup;
 
-public class lowerIntakeSubSystem extends SubsystemBase {
+public class lowerIntakeSubsystem extends SubsystemBase {
 
-    public lowerIntakeSubSystem() {}
+    public lowerIntakeSubsystem() {}
 
-    private final WPI_VictorSPX leftLowerIntake = new WPI_VictorSPX(1);
+    private final WPI_VictorSPX lowerIntake = new WPI_VictorSPX(1);
     
-      public CommandBase exampleMethodCommand() {}
+      public CommandBase exampleMethodCommand() {
+        return null;}
 
 }

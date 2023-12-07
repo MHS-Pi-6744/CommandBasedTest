@@ -8,8 +8,8 @@ import frc.robot.Constants.OperatorConstants;
 import frc.robot.commands.Autos;
 import frc.robot.commands.upperIntakeCmd;
 import frc.robot.commands.example.ExampleCommand;
-import frc.robot.subsystems.DriveSubSystem;
-import frc.robot.subsystems.UpperIntakeSubsystem;
+import frc.robot.subsystems.driveSubsystem;
+import frc.robot.subsystems.upperIntakeSubsystem;
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
 import edu.wpi.first.wpilibj2.command.button.Trigger;
@@ -25,8 +25,8 @@ import edu.wpi.first.wpilibj2.command.button.Trigger;
  */
 public class RobotContainer {
   // The robot's subsystems and commands are defined here...
-  private final DriveSubSystem driveSubSystem = new DriveSubSystem();
-  private final UpperIntakeSubsystem upperIntakeSubsystem = new UpperIntakeSubsystem();
+  private final driveSubsystem driveSubSystem = new driveSubsystem();
+  private final upperIntakeSubsystem upperIntakeSubsystem = new upperIntakeSubsystem();
   //private final //lower intake
 
   // Replace with CommandPS4Controller or CommandJoystick if needed

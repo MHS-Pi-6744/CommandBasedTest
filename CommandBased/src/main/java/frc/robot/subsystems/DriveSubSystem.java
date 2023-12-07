@@ -11,9 +11,9 @@ import edu.wpi.first.wpilibj.motorcontrol.MotorControllerGroup;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
-public class DriveSubSystem extends SubsystemBase {
+public class driveSubsystem extends SubsystemBase {
 
-  public DriveSubSystem() {
+  public driveSubsystem() {
     leftSpeedGroup.setInverted(true);
   }
 
