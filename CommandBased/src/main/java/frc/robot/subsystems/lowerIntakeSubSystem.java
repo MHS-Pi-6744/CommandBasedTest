@@ -11,27 +11,6 @@ public class lowerIntakeSubSystem extends SubsystemBase {
 
     private final WPI_VictorSPX leftLowerIntake = new WPI_VictorSPX(1);
     
-      public CommandBase exampleMethodCommand() {
+      public CommandBase exampleMethodCommand() {}
 
-    return runOnce(
-        () -> {
-
-        });
-  }
-
-
-  public boolean exampleCondition() {
-
-    return false;
-  }
-
-  @Override
-  public void periodic() {
-
-  }
-
-  @Override
-  public void simulationPeriodic() {
-
-  }
 }
