@@ -27,7 +27,7 @@ public class RobotContainer {
   // The robot's subsystems and commands are defined here...
   private final DriveSubSystem driveSubSystem = new DriveSubSystem();
   private final UpperIntakeSubsystem upperIntakeSubsystem = new UpperIntakeSubsystem();
-  private final lowerintake
+  //private final //lower intake
 
   // Replace with CommandPS4Controller or CommandJoystick if needed
   private final CommandXboxController m_driverController = new CommandXboxController(
@@ -64,7 +64,10 @@ public class RobotContainer {
     // pressed,
     // cancelling on release.
 
-    m_driverController.b().whileTrue(UpperIntakeSubsystem.setMotors(1.0));
+
+    //m_driverController.b().whileTrue(UpperIntakeSubsystem.setMotors(1.0));
+    m_driverController.leftTrigger().whileTrue(UpperIntakeSubsystem.setMotors(1.0));
+
   }
 
   /**
