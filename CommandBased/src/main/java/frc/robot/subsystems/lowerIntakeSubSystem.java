@@ -9,7 +9,7 @@ public class lowerIntakeSubSystem extends SubsystemBase {
 
     public lowerIntakeSubSystem() {}
 
-    private final WPI_VictorSPX leftLowerIntake = new WPI_VictorSPX(deviceNumber: 1);
+    private final WPI_VictorSPX leftLowerIntake = new WPI_VictorSPX(1);
     
       public CommandBase exampleMethodCommand() {
 
