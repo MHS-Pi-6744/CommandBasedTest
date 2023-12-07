@@ -8,6 +8,7 @@ import frc.robot.Constants.OperatorConstants;
 import frc.robot.commands.Autos;
 import frc.robot.commands.ExampleCommand;
 import frc.robot.subsystems.DriveSubSystem;
+import frc.robot.subsystems.UpperIntakeSubsystem;
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
 import edu.wpi.first.wpilibj2.command.button.Trigger;
@@ -60,7 +61,7 @@ public class RobotContainer {
     // pressed,
     // cancelling on release.
 
-    //m_driverController.b().whileTrue(driveSubSystem.());
+    m_driverController.b().whileTrue(UpperIntakeSubsystem.());
   }
 
   /**
@@ -68,8 +69,8 @@ public class RobotContainer {
    *
    * @return the command to run in autonomous
    */
-  public Command getAutonomousCommand() {
+  //public Command getAutonomousCommand() {
     // An example command will be run in autonomous
     //return Autos.exampleAuto(m_exampleSubsystem);
-  }
+  //}
 }
