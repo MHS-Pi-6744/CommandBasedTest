@@ -8,7 +8,7 @@ import edu.wpi.first.wpilibj2.command.CommandBase;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import com.ctre.phoenix.motorcontrol.can.WPI_VictorSPX;
 import edu.wpi.first.wpilibj.motorcontrol.MotorControllerGroup;
-
+import edu.wpi.first.wpilibj.drive.DifferentialDrive;
 
 public class DriveSubSystem extends SubsystemBase {
 
@@ -21,6 +21,9 @@ public class DriveSubSystem extends SubsystemBase {
 
   private final MotorControllerGroup rightSpeedGroup = new MotorControllerGroup(rightMotor1, rightMotor2);
   private final MotorControllerGroup leftSpeedGroup = new MotorControllerGroup(leftMotor1, leftMotor2);
+
+
+  DifferentialDrive  m_myRobot = new DifferentialDrive(leftSpeedGroup, rightSpeedGroup);
 
   public CommandBase exampleMethodCommand() {
 

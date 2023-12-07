@@ -47,7 +47,7 @@ public class Robot extends TimedRobot {
   -private final MotorControllerGroup rightSpeedGroup = new MotorControllerGroup(rightMotor1, rightMotor2);
   -private final MotorControllerGroup leftSpeedGroup = new MotorControllerGroup(leftMotor1, leftMotor2);
 
-  DifferentialDrive  m_myRobot = new DifferentialDrive(leftSpeedGroup, rightSpeedGroup);
+  --DifferentialDrive  m_myRobot = new DifferentialDrive(leftSpeedGroup, rightSpeedGroup);
 
   
 
