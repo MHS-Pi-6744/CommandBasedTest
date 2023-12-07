@@ -21,7 +21,7 @@ public class DriveForward extends CommandBase {
   /*  public ExampleCommand(DriveSubSystem subsystem) {
     m_subsystem = subsystem;
     // Use addRequirements() here to declare subsystem dependencies.
-    addRequirements(subsystem);
+    addRequirements(DriveSubSystem);
   }*/
 
   // Called when the command is initially scheduled.
