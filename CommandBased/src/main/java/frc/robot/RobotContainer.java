@@ -65,8 +65,7 @@ public class RobotContainer {
     // cancelling on release.
 
 
-    //m_driverController.b().whileTrue(UpperIntakeSubsystem.setMotors(1.0));
-    m_driverController.leftTrigger().whileTrue(UpperIntakeSubsystem.setMotors(1.0));
+    m_driverController.leftTrigger().whileTrue();
 
   }
 
