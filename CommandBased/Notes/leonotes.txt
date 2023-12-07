@@ -1,0 +1,6 @@
+Rename Subsystem
+
+Create public void to set the motors and their speed under Subsystem periodic. This can be used for other actions in the subsystem. 
+
+Example: Public void SetMotors(double LeftSpeed, double RightSpeed);
+
