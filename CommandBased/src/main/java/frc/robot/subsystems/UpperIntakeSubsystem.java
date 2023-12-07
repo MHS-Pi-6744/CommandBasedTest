@@ -27,7 +27,7 @@ public class UpperIntakeSubsystem extends SubsystemBase {
     
   }
 
-  public void setMotors(double intakeSpeed){
+  public static void setMotors(double intakeSpeed){
     upperIntakeMotor.set(intakeSpeed);
 
   
